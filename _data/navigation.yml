@@ -4,12 +4,12 @@ nav:
 
   - title: "Competition"
     section: competition
-    
-  - title: "About"
-    section: timeline
 
   - title: "Team"
     section: team
+    
+  - title: "Project timeline"
+    section: timeline
 
   - title: "Contact"
     section: contact
