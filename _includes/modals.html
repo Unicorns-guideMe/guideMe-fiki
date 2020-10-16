@@ -1,6 +1,6 @@
-<!-- Portfolio Modals -->
-{% for project in site.portfolio %}
-  <div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- Competition Modals -->
+{% for competitor in site.competition %}
+  <div class="competition-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -12,14 +12,14 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ project.title }}</h2>
-                <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-				<p>{{ project.content }}</p>		
+                <!-- Competitor Details Go Here -->
+                <h2 class="text-uppercase">{{ competitor.title }}</h2>
+                <p class="item-intro text-muted">{{ competitor.subtitle }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ competitor.image }}" alt="{{ competitor.alt }}">
+				<p>{{ competitor.content }}</p>		
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  {{ site.data.sitetext.portfolio.closebutton | default: "Close Project" }}</button>
+                  <icon class="fas fa-times"></icon>
+                  {{ site.data.sitetext.competition.closebutton | default: "Close Competitor" }}</button>
               </div>
             </div>
           </div>
@@ -28,4 +28,4 @@
     </div>
   </div>
 {% endfor %}
-<!-- End Portfolio Modals -->
+<!-- End Competition Modals -->
