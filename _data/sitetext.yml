@@ -16,7 +16,8 @@ description:
 
 competition:
     title: "Competition"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    # The text property is optional, comment it or remove it entirely if you're not using it
+    text: "Be bold! Say something about our competition. Crush them!"
     section: competition
     closebutton: "Close Comeptition Overview"
     
