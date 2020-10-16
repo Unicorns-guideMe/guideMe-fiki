@@ -14,11 +14,11 @@ description:
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-check
 
-portfolio:
-    title: "Portfolio"
+competition:
+    title: "Competition"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+    section: competition
+    closebutton: "Close Comeptition Overview"
     
 
 timeline:
