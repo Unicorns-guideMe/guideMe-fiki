@@ -8,10 +8,10 @@ description:
     section: description
     list:
       - title: "Problem"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "How much time do you spend while searching through web pages, articles, or watching videos on the Internet while trying to find out more about a new topic or while making research? Have you ever questioned the trustworthiness of the given information? How about its relevance or quality? All of us have stumbled upon this problem while trying to gain knowledge about a certain subject we have just decided to learn more about. Besides the fact that grasping some complex concepts can be really hard, trying to achieve this using poor made resources really adds significant difficulty to it."
         icon: fas fa-exclamation #find more at https://fontawesome.com/icons
       - title: "Solution"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "The guideMe Project tries to make learning and researching on the Internet easier, by creating an assistant that recommends relevant resources to its users. These resources include articles, videos, blogs, and even courses from different platforms that are curated by other more experienced users by grading them based on their experience and how it affected their learning process. We believe that this project will promote self-learning and contribute to raising the quality of Internet content for learning."
         icon: fas fa-check
 
 
@@ -19,7 +19,7 @@ keymetrics:
     section: keymetrics
     title: Key metrics
     list:
-      - text: Key metric <br> 1
+      - text: Key metric metric 1
       - text: Key metric <br> 2
       - text: Key metric <br> 3
       - text: Key metric <br> 4
@@ -72,7 +72,7 @@ team:
         image: assets/img/team/george.jpg
       - name: "Irina Sandu"
         role: "Software Engineer"
-        image: assets/img/team/irina.jpg
+        image: assets/img/team/irina.png
       - name: "Vlad Vitan"
         role: "Software Engineer"
         image: assets/img/team/vlad.jpg
