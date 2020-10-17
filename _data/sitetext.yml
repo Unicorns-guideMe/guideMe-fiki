@@ -14,6 +14,22 @@ description:
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-check
 
+
+keymetrics:
+    section: keymetrics
+    title: Key metrics
+    list:
+      - text: Key metric <br> 1
+      - text: Key metric <br> 2
+      - text: Key metric <br> 3
+      - text: Key metric <br> 4
+      - text: Key metric <br> 5
+      - text: Key metric <br> 6
+      - text: Key metric <br> 7
+      - text: Key metric <br> 8
+      - text: Key metric <br> 9
+
+
 competition:
     title: "Competition"
     # The text property is optional, comment it or remove it entirely if you're not using it

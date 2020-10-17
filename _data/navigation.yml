@@ -4,6 +4,9 @@ nav:
 
   - title: "Competition"
     section: competition
+  
+  - title: "Key metrics"
+    section: keymetrics
 
   - title: "Team"
     section: team
