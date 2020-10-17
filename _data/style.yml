@@ -6,6 +6,7 @@ highlight: "#61b7cf"
 #Image Customization
 header-image: "../img/header.png"
 contact-image: "../img/contact.png"
+logo-image: "../img/logo.png"
 
 #Font Awesome icon for competition grid when an item is hovered over
 #competition-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

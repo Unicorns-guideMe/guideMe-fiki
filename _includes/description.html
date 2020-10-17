@@ -10,7 +10,7 @@
             <icon class="{{ description.icon | default: "" }} fa-stack-1x fa-inverse"></icon>
           </span>
           <h4 class="description-heading">{{ description.title | markdownify }}</h4>
-          {% if description.desc %}<div class="text-muted">{{ description.desc | markdownify }}</div>{% endif %}
+          {% if description.desc %}<div class="text-muted text-justify">{{ description.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
       </div>
