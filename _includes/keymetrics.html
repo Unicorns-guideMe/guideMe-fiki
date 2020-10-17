@@ -1,0 +1,20 @@
+<!-- Descriptions -->
+<section class="page-section" id="{{ site.data.sitetext.keymetrics.section | default: "keymetrics" }}">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.keymetrics.title }}</h2>
+      </div>
+    </div>
+
+    <ul class="keymetrics">
+    {% for metric in site.data.sitetext.keymetrics.list %}
+      <li class="item">
+        <h5>{{ metric.text }}</h5>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- End Descriptions -->
