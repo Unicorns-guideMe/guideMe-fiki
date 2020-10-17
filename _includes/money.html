@@ -1,0 +1,42 @@
+<!-- Revenue Streams -->
+  <section class="bg-light page-section" id="{{ site.data.sitetext.money.section | default: "money" }}">
+    <div class="container">
+
+      <div class="row">
+        <div class="col col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.money.title }}</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+
+        <div class="col col-md-auto">
+        {% for cost in site.data.sitetext.money.costs %}
+          <div class="row inner-money">
+            <div class="col col-md-auto text-center money-bullet">
+              <img src="assets/img/money/{{ cost.img }}.png" style="width: 1.5rem; height: 1.5rem;" alt="{{ cost.img }}"/>
+            </div>
+            <div class="col col-md-auto money-text">
+              <h4>{{ cost.text }}</h4>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+
+        <div class="col col-md-auto" style="margin-left: 10px;">
+          {% for revenue in site.data.sitetext.money.revenues %}
+            <div class="row inner-money">
+              <div class="col col-md-auto money-bullet">
+                <img src="assets/img/money/{{ revenue.img }}.png" style="width: 1.5rem; height: 1.5rem;" alt="{{ revenue.img }}"/>
+              </div>
+              <div class="col col-md-auto money-text">
+                <h4>{{ revenue.text }}</h4>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+      </div>
+
+    </div>
+  </section>
+<!-- End Revenue Streams -->

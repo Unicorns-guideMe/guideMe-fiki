@@ -7,6 +7,9 @@ nav:
   
   - title: "Key metrics"
     section: keymetrics
+  
+  - title: "Money"
+    section: money
 
   - title: "Team"
     section: team

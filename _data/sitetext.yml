@@ -30,6 +30,27 @@ keymetrics:
       - text: Key metric <br> 9
 
 
+money:
+    section: money
+    title: Costs & Revenue
+    costs:
+        - text: Big cost
+          img: fall_slow
+        - text: Small cost
+          img: fall_fast
+        - text: Small cost
+          img: fall_fast
+        - text: Small cost
+          img: fall_fast
+    revenues:
+        - text: Big money input
+          img: rise_fast
+        - text: Small money input
+          img: rise_slow
+        - text: Small money input
+          img: rise_slow
+
+
 competition:
     title: "Competition"
     # The text property is optional, comment it or remove it entirely if you're not using it
