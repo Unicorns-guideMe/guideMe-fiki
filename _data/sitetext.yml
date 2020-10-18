@@ -84,10 +84,21 @@ competition:
     section: competition
     closebutton: "Close Comeptition Overview"
     list:
-        - title: Example # this is optional, remove this line and the title AND subtitle won't show
-          subtitle: subtitle # this is optional, remove it and the subtitle won't show
-          thumbnail: assets/img/competition/04-thumbnail.jpg
-
+      - subtitle: many certified courses from all domains for students and enterprises # this is optional, remove it and the subtitle won't show
+        thumbnail: assets/img/competition/coursera-logo.png
+      - subtitle: online courses to learn skills for your career # this is optional, remove it and the subtitle won't show
+        thumbnail: assets/img/competition/linkedin-learning-logo.png
+      - subtitle: courses from many IT domains to strengthen your skills # this is optional, remove it and the subtitle won't show
+        thumbnail: assets/img/competition/pluralsight-logo.png
+      - subtitle: over 7000 videos from different partner platforms # this is optional, remove it and the subtitle won't show
+        thumbnail: assets/img/competition/hippoCampus-logo.png      
+      - subtitle: learning and teaching platform with certified courses from all domains # this is optional, remove it and the subtitle won't show
+        thumbnail: assets/img/competition/udemy-logo.png
+      
+      
+        # - title: Coursera # this is optional, remove this line and the title AND subtitle won't show
+        #   subtitle: subtitle # this is optional, remove it and the subtitle won't show
+        #   thumbnail: assets/img/competition/04-thumbnail.jpg
 
 team:
     title: "OUR AMAZING TEAM"
