@@ -10,7 +10,7 @@
 
     <ul class="keymetrics">
     {% for metric in site.data.sitetext.keymetrics.list %}
-      <li class="item">
+      <li class="item" data-toggle="tooltip" data-placement="top" title="{{ metric.desc }}">
         <h5>{{ metric.text }}</h5>
       </li>
     {% endfor %}

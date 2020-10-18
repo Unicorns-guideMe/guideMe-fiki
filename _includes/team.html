@@ -7,26 +7,33 @@
 	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
 	</div>
   </div>
-  <div class="row">
-  {% for person in site.data.sitetext.team.people_one %}
-	<div class="col-sm-4">
+
+  <div class="row justify-content-md-center">
+{% for person in site.data.sitetext.team.people_one %}
+	<div class="col col-md-4">
 	  <div class="team-member">
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-		<h4>{{ person.name }}</h4>
-		<p class="text-muted">{{ person.role }}</p>
+		  <h5>{{ person.name }}</h5>
+		  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+		  <p class="text-muted">{{ person.role }}</p>
 	  </div>
 	</div>
-  {% endfor %}
+{% endfor %}
+  </div>
+
+  <div class="row justify-content-md-center">
 {% for person in site.data.sitetext.team.people_two %}
-  <div class="col-sm-6">
+  <div class="col col-md-4">
 	<div class="team-member">
 	  <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-	  <h4>{{ person.name }}</h4>
-	  <p class="text-muted">{{ person.role }}</p>
+		<h5>{{ person.name }}</h5>
+		<a href="mailto:{{ person.email }}">{{ person.email }}</a>
+	  	<p class="text-muted">{{ person.role }}</p>
 	</div>
   </div>
 {% endfor %}
   </div>
+
 {% if site.data.sitetext.team.subtext %}
   <div class="row">
 	<div class="col-lg-8 mx-auto text-center">
@@ -34,6 +41,7 @@
 	</div>
   </div>
 {% endif %}
+
 </div>
 </section>
 <!-- End Team -->

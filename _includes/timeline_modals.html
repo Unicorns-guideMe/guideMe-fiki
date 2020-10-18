@@ -1,0 +1,22 @@
+<!-- M1 modal -->
+{% for milestone in site.data.sitetext.timeline.milestones %}
+{% if milestone.has_more %}
+  <div class="timeline-modal modal fade" id="{{ milestone.has_more }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+          <span>Close</span>
+        </div>
+
+        {% for page in milestone.includes %}
+        {% include {{ page.link }} %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% endfor %}
+<!-- M1 modal end -->

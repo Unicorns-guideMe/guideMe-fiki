@@ -19,36 +19,62 @@ keymetrics:
     section: keymetrics
     title: Key metrics
     list:
-      - text: Key metric metric 1
-      - text: Key metric <br> 2
-      - text: Key metric <br> 3
-      - text: Key metric <br> 4
-      - text: Key metric <br> 5
-      - text: Key metric <br> 6
-      - text: Key metric <br> 7
-      - text: Key metric <br> 8
-      - text: Key metric <br> 9
+      - text: Retention metrics
+        desc: How many times per day/week the user engages with the product.
+        category: critical
+      - text: Premium Conversion Rate
+        desc: How many users convert to premium in a certain time slot.
+        category: critical
+      - text: Cancellation Rate
+        desc: How many users uninstall our plugin or cancel the premium subscription.
+        category: critical
+      - text: Rate of investment
+        desc: How does the advertising affect revenue.
+        category: major
+      - text: Feature relevance
+        desc: What feature is used the most.
+        category: major
+      - text: Perceived content quality
+        desc: How useful the content we provide is to the users.
+        category: normal
+      - text: Response time
+        desc: How fast do we serve recommendations to the users.
+        category: normal
+      - text: Adaptability time
+        desc: How fast our recommender system adapts to new feedback.
+        category: normal
+
+
+customers:
+    section: customers
+    title: Customer segments
+    text1: On one hand, our product serves anyone who wants to learn something new and has access to the internet. Although we expect people of all ages to use our product, a statistic from 2016 from the statistical office of the European Union shows that the participation of younger individuals (aged 25–34) in non formal learning activities in the EU was more than 20 percentage points higher than that of older ones (aged 55–64).
+    text2: On the other hand, we can also make partnerships with universities and companies, offering them a better deal for a large group of students/employees.
 
 
 money:
     section: money
     title: Costs & Revenue
     costs:
-        - text: Big cost
+        - text: Marketing & Advertisements
+          img: fall_fast
+          desc: The biggest investment will be getting the first active users on the platform. By using the platform they will generate better recommandations, driving more people to the platform.
+        - text: Cloud services
           img: fall_slow
-        - text: Small cost
-          img: fall_fast
-        - text: Small cost
-          img: fall_fast
-        - text: Small cost
-          img: fall_fast
+          desc: Data storage and computation power for the recommandation algorithms.
+        - text: Initial data sources
+          img: fall_slow
+          desc: This may or may not be a cost. In order to offer recommandations to the first users we will need data, before we gather data from their learning journals.
     revenues:
-        - text: Big money input
+        - text: Premium subscriptions
           img: rise_fast
-        - text: Small money input
+          desc: The free plan will offer basic functions (learning journal, basic filters for recommandations). Premium plans will offer more advanced filters and the ability to generate learning roadmaps for desired topics.
+        - text: Partnerships with companies
+          img: rise_fast
+          desc: We will sell bulk premium memberships to companies, driving many more users on the platform.
+        - text: Partnerships with educational institutions
           img: rise_slow
-        - text: Small money input
-          img: rise_slow
+          desc: We will partner with educational institutions in order to get both students and educators on the platform.
 
 
 competition:
@@ -62,34 +88,34 @@ competition:
 team:
     title: "OUR AMAZING TEAM"
     # optional
-    text: 
+    text: We are a team of 5 students from the Faculty of Automatic Control and Computer Science, University Politehnica of Bucharest. We stand for education and support it by uniting our efforts into making this project available for everyone.
     # optional
-    subtext:
+    subtext: 
     section: team
     people_one:
       - name: "George Diaconu"
         role: "Software Engineer"
         image: assets/img/team/george.jpg
+        email: george.diaconu2208@stud.acs.upb.ro
       - name: "Irina Sandu"
         role: "Software Engineer"
         image: assets/img/team/irina.png
+        email: maria_irina.sandu@stud.acs.upb.ro
       - name: "Vlad Vitan"
         role: "Software Engineer"
         image: assets/img/team/vlad.jpg
+        email: vlad.vitan@stud.acs.upb.ro
     people_two:
       - name: "Daliana Stanescu"
         role: "Software Engineer"
         image: assets/img/team/daliana.jpg
+        email: mariana.stanescu@stud.acs.upb.ro
       - name: "Dora Nicoleta"
         role: "Software Engineer"
         image: assets/img/team/dora.jpg
+        email: dora.tilica@stud.acs.upb.ro
 
 
-contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    
 footer:
     legal: "Privacy Policy"
     social:
@@ -103,14 +129,18 @@ timeline:
     section: timeline
     # left is the default
     #start_align: "left"
-    events:
+    milestones:
       - title: "M0 - Project idea and recruiting troops"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
+        desc: "For the first milestone we had to form a team and come up with an idea. We started with 3 people, George, Irina and Vlad. After a short presentation held by Irina, we welcomed Daliana and Dora to our team. The starting idea revolved around a learning assistant."
+        image: assets/img/timeline/0.jpg
       - title: "M1 - First analysis of the market and refining the idea"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
+        desc: "For this milestone we had to identify more clearly what problem we want to solve and how we are going to solve it. We had to gather some information about the market we are going to comepete in, looking at the potential customers and our competition. We had to identify the key metrics that describe our product as well as look into costs and monetization of the product."
+        image: assets/img/timeline/1.jpg
+        has_more: M1
+        includes:
+            - link: m1/customer_segments.html
+            - link: m1/keymetrics.html
+            - link: competition_grid.html
+            - link: m1/money.html
     end: "More <br> Coming <br> Soon!"
 

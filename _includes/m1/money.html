@@ -1,8 +1,8 @@
 <!-- Revenue Streams -->
-  <section class="bg-light page-section" id="{{ site.data.sitetext.money.section | default: "money" }}">
+  <section class="page-section" id="{{ site.data.sitetext.money.section | default: "money" }}">
     <div class="container">
 
-      <div class="row" style="margin-bottom: 5%;">
+      <div class="row">
         <div class="col col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext.money.title }}</h2>
         </div>
@@ -10,27 +10,29 @@
 
       <div class="row justify-content-md-around">
 
-        <div class="col col-md-auto">
+        <div class="col col-md-6">
         {% for cost in site.data.sitetext.money.costs %}
           <div class="row inner-money">
-            <div class="col col-md-auto text-center money-bullet">
+            <div class="col col-md-3 text-center money-bullet">
               <img src="assets/img/money/{{ cost.img }}.png" alt="{{ cost.img }}"/>
             </div>
-            <div class="col col-md-auto align-self-center money-text">
+            <div class="col col-md-9 align-self-center money-text text-left">
               <h4>{{ cost.text }}</h4>
+              <p>{{ cost.desc }}</p>
             </div>
           </div>
         {% endfor %}
         </div>
 
-        <div class="col col-md-auto" style="margin-left: 10px;">
+        <div class="col col-md-6">
           {% for revenue in site.data.sitetext.money.revenues %}
             <div class="row inner-money">
-              <div class="col col-md-auto money-bullet">
+              <div class="col col-md-3 money-bullet">
                 <img src="assets/img/money/{{ revenue.img }}.png" alt="{{ revenue.img }}"/>
               </div>
-              <div class="col col-md-auto align-self-center money-text">
+              <div class="col col-md-9 align-self-center money-text text-left">
                 <h4>{{ revenue.text }}</h4>
+                <p>{{ revenue.desc }}</p>
               </div>
             </div>
           {% endfor %}

@@ -1,6 +1,6 @@
 /* The same layout with CSS Grid ► https://codepen.io/Rafiozoo/pen/NyMZRy */
 .keymetrics {
-	margin: 3rem auto;
+	margin: 0 auto;
 	padding: 1rem 0 2.4rem;
 	text-align: center;
 }
@@ -23,27 +23,39 @@
 .item::before {
 	content: "";
 	position: absolute;
-	top: 0; bottom: 0; left: 0; right: 0;
 	background-color: $primary;
+	top: 0; bottom: 0; left: 0; right: 0;
 	clip-path: circle(45% at 50% 50%);
 	transform: scale(1.077);
 	transition: transform 0.3s;
 }
+
+.critical::before {
+	background-color: red;
+}
+
+.major::before {
+	background-color: orange;
+}
+
+.normal::before {
+	background-color: green;
+}
+
 .item:hover::before {
 	transform: scale(1.11);
 }
 .item H5 {
+	color: white;
 	display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
-	margin: 0;
-/* 	background-image: See JS. */
+	margin: 5px;
 	background-size: cover;
 	background-position: center;
-	// clip-path: polygon(50% 0, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%);
 }
 
 
@@ -74,7 +86,7 @@
 	}
 }
 
-@media (min-width: 32rem) and (max-width: 41.999rem) {
+@media (min-width: 32rem) {
 	.keymetrics {
 		max-width: 30rem;
 	}
@@ -83,24 +95,6 @@
 	}
 }
 
-@media (min-width: 42rem) /* and (max-width: 53.999rem) */ {
-	.keymetrics {
-		max-width: 40rem;
-	}
-	.item:nth-child(7n+5) {
-		margin-left: 5rem;
-	}
-}
-
-// @media (min-width: 54rem) {
-// 	.keymetrics {
-// 		max-width: 50rem;
-// 	}
-// 	.item:nth-child(9n+6) {
-// 		margin-left: 5rem;
-// 	}
-// }
-/* IE resets - because of clip-path no support */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	/* IE10+ CSS */
 	.keymetrics {
