@@ -8,7 +8,7 @@ description:
     section: description
     list:
       - title: "Problem"
-        desc: "How much time do you spend while searching through web pages, articles, or watching videos on the Internet while trying to find out more about a new topic or while making research? Have you ever questioned the trustworthiness of the given information? How about its relevance or quality? All of us have stumbled upon this problem while trying to gain knowledge about a certain subject we have just decided to learn more about. Besides the fact that grasping some complex concepts can be really hard, trying to achieve this using poor made resources really adds significant difficulty to it."
+        desc: "How much time do you spend searching through web pages, articles, or watching videos on the Internet while trying to find out more about a new topic or while researching? Have you ever questioned the trustworthiness of the given information? How about its relevance or quality? All of us have stumbled upon this problem while trying to gain knowledge about a certain subject we have just decided to learn more about. Besides the fact that grasping some complex concepts can be really hard, trying to achieve this using poor made resources really adds significant difficulty to it."
         icon: fas fa-exclamation #find more at https://fontawesome.com/icons
       - title: "Solution"
         desc: "The guideMe Project tries to make learning and researching on the Internet easier, by creating an assistant that recommends relevant resources to its users. These resources include articles, videos, blogs, and even courses from different platforms that are curated by other more experienced users by grading them based on their experience and how it affected their learning process. We believe that this project will promote self-learning and contribute to raising the quality of Internet content for learning."
@@ -28,7 +28,7 @@ keymetrics:
       - text: Cancellation Rate
         desc: How many users uninstall our plugin or cancel the premium subscription.
         category: critical
-      - text: Rate of investment
+      - text: Return of investment
         desc: How does the advertising affect revenue.
         category: major
       - text: Feature relevance
@@ -58,17 +58,17 @@ money:
     costs:
         - text: Marketing & Advertisements
           img: fall_fast
-          desc: The biggest investment will be getting the first active users on the platform. By using the platform they will generate better recommandations, driving more people to the platform.
+          desc: The biggest investment will be getting the first active users on the platform. By using the platform they will generate better recommendations, driving more people to the platform.
         - text: Cloud services
           img: fall_slow
-          desc: Data storage and computation power for the recommandation algorithms.
+          desc: Data storage and computation power for the recommendation algorithms.
         - text: Initial data sources
           img: fall_slow
-          desc: This may or may not be a cost. In order to offer recommandations to the first users we will need data, before we gather data from their learning journals.
+          desc: This may or may not be a cost. In order to offer recommendations to the first users we will need data, before we gather data from their learning journals.
     revenues:
         - text: Premium subscriptions
           img: rise_fast
-          desc: The free plan will offer basic functions (learning journal, basic filters for recommandations). Premium plans will offer more advanced filters and the ability to generate learning roadmaps for desired topics.
+          desc: The free plan will offer basic functions (learning journal, basic filters for recommendations). Premium plans will offer more advanced filters and the ability to generate learning roadmaps for desired topics.
         - text: Partnerships with companies
           img: rise_fast
           desc: We will sell bulk premium memberships to companies, driving many more users on the platform.
@@ -79,10 +79,14 @@ money:
 
 competition:
     title: "Competition"
-    # The text property is optional, comment it or remove it entirely if you're not using it
+    # optional
     text: "Be bold! Say something about our competition. Crush them!"
     section: competition
     closebutton: "Close Comeptition Overview"
+    list:
+        - title: Example # this is optional, remove this line and the title AND subtitle won't show
+          subtitle: subtitle # this is optional, remove it and the subtitle won't show
+          thumbnail: assets/img/competition/04-thumbnail.jpg
 
 
 team:
@@ -131,16 +135,16 @@ timeline:
     #start_align: "left"
     milestones:
       - title: "M0 - Project idea and recruiting troops"
-        desc: "For the first milestone we had to form a team and come up with an idea. We started with 3 people, George, Irina and Vlad. After a short presentation held by Irina, we welcomed Daliana and Dora to our team. The starting idea revolved around a learning assistant."
+        desc: For the first milestone we had to form a team and come up with an idea. We started with 3 people, George, Irina and Vlad. After a short presentation held by Irina, we welcomed Daliana and Dora to our team. The starting idea revolved around a learning assistant.
         image: assets/img/timeline/0.jpg
       - title: "M1 - First analysis of the market and refining the idea"
-        desc: "For this milestone we had to identify more clearly what problem we want to solve and how we are going to solve it. We had to gather some information about the market we are going to comepete in, looking at the potential customers and our competition. We had to identify the key metrics that describe our product as well as look into costs and monetization of the product."
+        desc: "For this milestone we had to identify more clearly what problem we want to solve and how we are going to solve it. We had to gather some information about the market we are going to compete in, looking at the potential customers and our competition. We had to identify the key metrics that describe our product as well as look into costs and monetization of the product."
         image: assets/img/timeline/1.jpg
         has_more: M1
         includes:
             - link: m1/customer_segments.html
             - link: m1/keymetrics.html
-            - link: competition_grid.html
+            - link: m1/competition_grid.html
             - link: m1/money.html
     end: "More <br> Coming <br> Soon!"
 
