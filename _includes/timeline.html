@@ -14,23 +14,24 @@
           <ul class="timeline">
       {%- assign align = site.data.sitetext.timeline.start_align -%}
       {%- for milestone in site.data.sitetext.timeline.milestones -%}
-            {%- if align == "right" -%}
-              {%- if milestone.align and milestone.align == "left" -%}
-                {%- assign align = "right" -%}
-                <li>
-              {%- else -%}
-                {%- assign align = "left" %}
-                <li class="timeline-inverted">
-              {% endif %}
-            {% else %}
-              {%- if milestone.align and milestone.align == "right" -%}
-                {%- assign align = "left" -%}
-                <li class="timeline-inverted">
-              {%- else -%}
-                {%- assign align = "right" %}
-                <li>
-              {% endif %}
-            {%- endif -%}
+        {%- if align == "right" -%}
+          {%- if milestone.align and milestone.align == "left" -%}
+            {%- assign align = "right" -%}
+            <li>
+          {%- else -%}
+            {%- assign align = "left" %}
+            <li class="timeline-inverted">
+          {% endif %}
+        {% else %}
+          {%- if milestone.align and milestone.align == "right" -%}
+            {%- assign align = "left" -%}
+            <li class="timeline-inverted">
+          {%- else -%}
+            {%- assign align = "right" %}
+            <li>
+          {% endif %}
+        {%- endif -%}
+
               <div class="timeline-image">
                 {%- if milestone.has_more -%}
                   <a class="timeline-link" data-toggle="modal" href="#{{ milestone.has_more }}">
@@ -45,30 +46,36 @@
                   <img class="rounded-circle img-fluid" src="{{ milestone.image }}" alt="{{ milestone.alt | default: ""}}">
                 {%- endif -%}
               </div>
+
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="subheading">{{ milestone.title }}</h4>
                 </div>
                 <div class="timeline-body">
-                  <div class="text-muted">{{ milestone.desc | markdownify }}</div>
+                  <div class="text-muted">
+                    {{ milestone.desc | markdownify }}
+                    {% if milestone.has_more %}
+                      <a data-toggle="modal" href="#{{ milestone.has_more }}">Read more</a>
+                    {% endif %}
+                  </div>
                 </div>
               </div>
             </li>
 		  {% endfor %}
             
 		  {% if site.data.sitetext.timeline.end %}	
-			<li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>{{ site.data.sitetext.timeline.end }}</h4>
-              </div>
-            </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <h4>{{ site.data.sitetext.timeline.end }}</h4>
+          </div>
+        </li>
 		  {% endif %}
 
-          </ul>
-        </div>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 {% include timeline_modals.html %}
 <!-- End About -->

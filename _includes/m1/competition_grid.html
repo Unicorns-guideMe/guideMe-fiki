@@ -10,21 +10,14 @@
       </div>
     </div>
     <div class="row">
-	{% for competitor in site.competition %}
+	{% for competitor in site.data.sitetext.competition.list %}
       <div class="col-md-4 col-sm-6 competition-item">
-        <a class="competition-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="competition-hover">
-            <div class="competition-hover-content">
-              <icon class="{{ site.data.style.competition-icon | default: "fas fa-plus fa-3x" }}"></icon>
-            </div>
-          </div>
-          <img class="img-fluid" src="{{ competitor.caption.thumbnail }}" alt="">
-        </a>
-      {% if competitor.caption.title %}
+        <img class="img-fluid" src="{{ competitor.thumbnail }}" alt="">
+      {% if competitor.title %}
         <div class="competition-caption">
-          <h4>{{ competitor.caption.title }}</h4>
-        {% if competitor.caption.subtitle %}
-          <p class="text-muted">{{ competitor.caption.subtitle }}</p>
+          <h4>{{ competitor.title }}</h4>
+        {% if competitor.subtitle %}
+          <p class="text-muted">{{ competitor.subtitle }}</p>
         {% endif %}
         </div>
       {% endif %}
@@ -33,4 +26,3 @@
     </div>
   </div>
 </section>
-{% include modals.html %}
