@@ -1,5 +1,15 @@
 // Styling for the competition section
 #competition {
+  .competitors{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .comp-motto{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: italic;
+  color: gray;
+}
   .competition-item {
     right: 0;
     margin: 0 0 15px;
@@ -101,3 +111,4 @@
     }
   }
 }
+

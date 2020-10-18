@@ -9,22 +9,27 @@
       {% endif %} -->
       </div>
     </div>
-    <div class="row">
-	{% for competitor in site.data.sitetext.competition.list %}
-      <div class="col-md-4 col-sm-6 competition-item">
-        <img class="img-fluid" src="{{ competitor.thumbnail }}" alt="">
-      {% if competitor.title %}
-        <div class="competition-caption">
-          <h4>{{ competitor.title }}</h4>
-        </div>
-      {% endif %}
-      {% if competitor.subtitle %}
-          <p class="text-muted">{{ competitor.subtitle }}</p>
-        {% endif %}
-      </div>
-	{% endfor %}
+    <div class = "competitors">
+      <!-- <div class="row"> -->
+        {% for competitor in site.data.sitetext.competition.list %}
+            <div class="col-md-4 col-sm-6 competition-item">
+              <img class="img-fluid" src="{{ competitor.thumbnail }}" alt="">
+            {% if competitor.title %}
+              <div class="competition-caption">
+                <h4>{{ competitor.title }}</h4>
+              </div>
+            {% endif %}
+            <!-- {% if competitor.subtitle %}
+                <p class="text-muted">{{ competitor.subtitle }}</p>
+              {% endif %} -->
+            </div>
+        {% endfor %}
+          <!-- </div> -->
     </div>
-    <h2 class="section-subheading text-muted">They offer you thousands of study materials? We offer you an infinity! We are the link to the resources you need to step up!
-    </h2>
+    
+    <br>
+    <h3 class="comp-motto">While each of these platforms offer good learning materials, their content is limited.
+      We will combine any types of materials, recommend you the ones you need and guide you on your path to a better you!
+    </h3>
   </div>
 </section>
