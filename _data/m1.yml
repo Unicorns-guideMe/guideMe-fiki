@@ -11,14 +11,14 @@ keymetrics:
       - text: Cancellation Rate
         desc: How many users uninstall our plugin or cancel the premium subscription.
         category: critical
-      - text: Return of investment
+      - text: Return of investment on advertising
         desc: How does the advertising affect revenue.
         category: major
       - text: Feature relevance
-        desc: What feature is used the most.
+        desc: Determining what feature is used the most by looking at click-through rates.
         category: major
       - text: Perceived content quality
-        desc: How useful the content we provide is to the users.
+        desc: Determining how useful the content we provide is to the users by looking at ratings.
         category: normal
       - text: Response time
         desc: How fast do we serve recommendations to the users.
@@ -45,9 +45,9 @@ money:
         - text: Cloud services
           img: fall_slow
           desc: Data storage and computation power for the recommendation algorithms.
-        - text: Initial data sources
+        - text: Development costs
           img: fall_slow
-          desc: This may or may not be a cost. In order to offer recommendations to the first users we will need data, before we gather data from their learning journals.
+          desc: Developers' salaries, equipment, development tools and other expenses related to the development of the product.
     revenues:
         - text: Premium subscriptions
           img: rise_fast

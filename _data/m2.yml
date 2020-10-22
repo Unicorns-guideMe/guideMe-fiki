@@ -1,0 +1,18 @@
+problem:
+    section: problem
+    title: Problem
+
+
+solution:
+    section: solution
+    title: Solution
+
+
+customer_discovery:
+    section: customer_discovery
+    title: Customer discovery
+
+
+conclusions:
+    section: m2_conclusions
+    title: Conclusions

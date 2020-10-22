@@ -11,14 +11,9 @@ description:
         desc: "When using online resources for learning, the amount of information can be overwhelming. Especially for someone who is just starting out with that subject."
         icon: fas fa-exclamation #find more at https://fontawesome.com/icons
       - title: "Solution"
-        desc: "A learning assistent which recommends content according to the user's needs and offers a journal for note-keeping in the browser."
+        desc: "A learning assistant which recommends content according to the user's needs and offers a journal for note-keeping in the browser."
         icon: fas fa-check
 
-      - text: Return of investment on advertising
-        desc: Determining what feature is used the most by looking at click-through rates.
-        desc: Determining how useful the content we provide is to the users by looking at ratings.
-        - text: Development costs
-          desc: Developer salaries, equipment, development tools and other expenses related to the development of the product.
 team:
     title: "OUR AMAZING TEAM"
     # optional
@@ -76,4 +71,14 @@ timeline:
             - link: m1/keymetrics.html
             - link: m1/competition_grid.html
             - link: m1/money.html
+      - title: "M2 - Validation 1"
+        desc: "This is the first validation of our project. We decided on a set of questions that would yield key information about our potential customers. We got to see if the identified problem is real and if the solution is suited."
+        image: assets/img/timeline/2.jpg
+        has_more: M2
+        includes:
+            - link: m2/problem.html
+            - link: m2/solution.html
+            - link: m2/customer_discovery.html
+            - link: m2/conclusions.html
+        disabled: yes # remove when this is ready to be shown to the world
     end: "More <br> Coming <br> Soon!"
