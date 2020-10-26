@@ -1,17 +1,13 @@
 <!-- Competition Grid -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.competition.section | default: "competition" }}">
+<section class="bg-light page-section" id="{{ site.data.m1.competition.section | default: "competition" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.competition.title | markdownify | default: "Competition" }}</h2>
-      <!-- {% if site.data.sitetext.competition.text %}  
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.competition.text | markdownify }}</h3>
-      {% endif %} -->
+        <h2 class="section-heading text-uppercase">{{ site.data.m1.competition.title | markdownify | default: "Competition" }}</h2>
       </div>
     </div>
     <div class = "competitors">
-      <!-- <div class="row"> -->
-        {% for competitor in site.data.sitetext.competition.list %}
+        {% for competitor in site.data.m1.competition.list %}
             <div class="col-md-4 col-sm-6 competition-item">
               <img class="img-fluid" src="{{ competitor.thumbnail }}" alt="">
             {% if competitor.title %}
@@ -19,12 +15,8 @@
                 <h4>{{ competitor.title }}</h4>
               </div>
             {% endif %}
-            <!-- {% if competitor.subtitle %}
-                <p class="text-muted">{{ competitor.subtitle }}</p>
-              {% endif %} -->
             </div>
         {% endfor %}
-          <!-- </div> -->
     </div>
     
     <br>

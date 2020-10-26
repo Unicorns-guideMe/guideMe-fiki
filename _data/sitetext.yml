@@ -11,94 +11,8 @@ description:
         desc: "When using online resources for learning, the amount of information can be overwhelming. Especially for someone who is just starting out with that subject."
         icon: fas fa-exclamation #find more at https://fontawesome.com/icons
       - title: "Solution"
-        desc: "A learning assistent which recommends content according to the user's needs and offers a journal for note-keeping in the browser."
+        desc: "A learning assistant which recommends content according to the user's needs and offers a journal for note-keeping in the browser."
         icon: fas fa-check
-
-
-keymetrics:
-    section: keymetrics
-    title: Key metrics
-    list:
-      - text: Retention metrics
-        desc: How many times per day/week the user engages with the product.
-        category: critical
-      - text: Premium Conversion Rate
-        desc: How many users convert to premium in a certain time slot.
-        category: critical
-      - text: Cancellation Rate
-        desc: How many users uninstall our plugin or cancel the premium subscription.
-        category: critical
-      - text: Return of investment on advertising
-        desc: How does the advertising affect revenue.
-        category: major
-      - text: Feature relevance
-        desc: Determining what feature is used the most by looking at click-through rates.
-        category: major
-      - text: Perceived content quality
-        desc: Determining how useful the content we provide is to the users by looking at ratings.
-        category: normal
-      - text: Response time
-        desc: How fast do we serve recommendations to the users.
-        category: normal
-      - text: Adaptability time
-        desc: How fast our recommender system adapts to new feedback.
-        category: normal
-
-
-customers:
-    section: customers
-    title: Customer segments
-    text1: On one hand, our product serves anyone who wants to learn something new and has access to the internet. Although we expect people of all ages to use our product, a statistic from 2016 from the statistical office of the European Union shows that the participation of younger individuals (aged 25–34) in non formal learning activities in the EU was more than 20 percentage points higher than that of older ones (aged 55–64).
-    text2: On the other hand, we can also make partnerships with universities and companies, offering them a better deal for a large group of students/employees.
-
-
-money:
-    section: money
-    title: Costs & Revenue
-    costs:
-        - text: Marketing & Advertisements
-          img: fall_fast
-          desc: The biggest investment will be getting the first active users on the platform. By using the platform they will generate better recommendations, driving more people to the platform.
-        - text: Cloud services
-          img: fall_slow
-          desc: Data storage and computation power for the recommendation algorithms.
-        - text: Development costs
-          img: fall_slow
-          desc: Developer salaries, equipment, development tools and other expenses related to the development of the product.
-    revenues:
-        - text: Premium subscriptions
-          img: rise_fast
-          desc: The free plan will offer basic functions (learning journal, basic filters for recommendations). Premium plans will offer more advanced filters and the ability to generate learning roadmaps for desired topics.
-        - text: Partnerships with companies
-          img: rise_fast
-          desc: We will sell bulk premium memberships to companies, driving many more users on the platform.
-        - text: Partnerships with educational institutions
-          img: rise_slow
-          desc: We will partner with educational institutions in order to get both students and educators on the platform.
-
-
-competition:
-    title: "Competition"
-    # optional
-    text: "Be bold! Say something about our competition. Crush them!"
-    section: competition
-    closebutton: "Close Comeptition Overview"
-    list:
-      - subtitle: many certified courses from all domains for students and enterprises # this is optional, remove it and the subtitle won't show
-        thumbnail: assets/img/competition/coursera-logo.png
-      - subtitle: online courses to learn skills for your career # this is optional, remove it and the subtitle won't show
-        thumbnail: assets/img/competition/linkedin-learning-logo.png
-      - subtitle: courses from many IT domains to strengthen your skills # this is optional, remove it and the subtitle won't show
-        thumbnail: assets/img/competition/pluralsight-logo.png
-      - subtitle: over 7000 videos from different partner platforms # this is optional, remove it and the subtitle won't show
-        thumbnail: assets/img/competition/hippoCampus-logo.png      
-      - subtitle: learning and teaching platform with certified courses from all domains # this is optional, remove it and the subtitle won't show
-        thumbnail: assets/img/competition/udemy-logo.png
-      
-      
-        # - title: Coursera # this is optional, remove this line and the title AND subtitle won't show
-        #   subtitle: subtitle # this is optional, remove it and the subtitle won't show
-        #   thumbnail: assets/img/competition/04-thumbnail.jpg
 
 team:
     title: "OUR AMAZING TEAM"
@@ -157,4 +71,14 @@ timeline:
             - link: m1/keymetrics.html
             - link: m1/competition_grid.html
             - link: m1/money.html
+      - title: "M2 - Validation 1"
+        desc: "This is the first validation of our project. We decided on a set of questions that would yield key information about our potential customers. We got to see if the identified problem is real and if the solution is suited."
+        image: assets/img/timeline/2.jpg
+        has_more: M2
+        includes:
+            - link: m2/problem.html
+            - link: m2/solution.html
+            - link: m2/customer_discovery.html
+            - link: m2/conclusions.html
+        disabled: yes # remove when this is ready to be shown to the world
     end: "More <br> Coming <br> Soon!"
