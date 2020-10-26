@@ -8,10 +8,10 @@ description:
     section: description
     list:
       - title: "Problem"
-        desc: "How much time do you spend searching through web pages, articles, or watching videos on the Internet while trying to find out more about a new topic or while researching? Have you ever questioned the trustworthiness of the given information? How about its relevance or quality? All of us have stumbled upon this problem while trying to gain knowledge about a certain subject we have just decided to learn more about. Besides the fact that grasping some complex concepts can be really hard, trying to achieve this using poor made resources really adds significant difficulty to it."
+        desc: "When using online resources for learning, the amount of information can be overwhelming. Especially for someone who is just starting out with that subject."
         icon: fas fa-exclamation #find more at https://fontawesome.com/icons
       - title: "Solution"
-        desc: "The guideMe Project tries to make learning and researching on the Internet easier, by creating an assistant that recommends relevant resources to its users. These resources include articles, videos, blogs, and even courses from different platforms that are curated by other more experienced users by grading them based on their experience and how it affected their learning process. We believe that this project will promote self-learning and contribute to raising the quality of Internet content for learning."
+        desc: "A learning assistent which recommends content according to the user's needs and offers a journal for note-keeping in the browser."
         icon: fas fa-check
 
 
@@ -28,14 +28,14 @@ keymetrics:
       - text: Cancellation Rate
         desc: How many users uninstall our plugin or cancel the premium subscription.
         category: critical
-      - text: Return of investment
+      - text: Return of investment on advertising
         desc: How does the advertising affect revenue.
         category: major
       - text: Feature relevance
-        desc: What feature is used the most.
+        desc: Determining what feature is used the most by looking at click-through rates.
         category: major
       - text: Perceived content quality
-        desc: How useful the content we provide is to the users.
+        desc: Determining how useful the content we provide is to the users by looking at ratings.
         category: normal
       - text: Response time
         desc: How fast do we serve recommendations to the users.
@@ -62,9 +62,9 @@ money:
         - text: Cloud services
           img: fall_slow
           desc: Data storage and computation power for the recommendation algorithms.
-        - text: Initial data sources
+        - text: Development costs
           img: fall_slow
-          desc: This may or may not be a cost. In order to offer recommendations to the first users we will need data, before we gather data from their learning journals.
+          desc: Developer salaries, equipment, development tools and other expenses related to the development of the product.
     revenues:
         - text: Premium subscriptions
           img: rise_fast
@@ -158,4 +158,3 @@ timeline:
             - link: m1/competition_grid.html
             - link: m1/money.html
     end: "More <br> Coming <br> Soon!"
-
