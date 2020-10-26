@@ -64,7 +64,7 @@ money:
           desc: Data storage and computation power for the recommendation algorithms.
         - text: Development costs
           img: fall_slow
-          desc: Developer salaries.
+          desc: Developer salaries, equipment, development tools and other expenses related to the development of the product.
     revenues:
         - text: Premium subscriptions
           img: rise_fast
@@ -158,4 +158,3 @@ timeline:
             - link: m1/competition_grid.html
             - link: m1/money.html
     end: "More <br> Coming <br> Soon!"
-
