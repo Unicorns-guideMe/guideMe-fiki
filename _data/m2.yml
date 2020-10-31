@@ -8,9 +8,14 @@ solution:
     title: Solution
 
 
-customer_discovery:
-    section: customer_discovery
-    title: Customer discovery
+problem_validation:
+    section: problem_validation
+    title: Problem validation
+
+
+solution_validation:
+    section: solution_validation
+    title: Solution validation
 
 
 conclusions:
