@@ -11,7 +11,25 @@ solution:
 problem_validation:
     section: problem_validation
     title: Problem validation
-
+    list:
+        - img: age
+        - img: gender
+        - img: college
+        - img: work
+        - img: time_spent_learning
+        - img: devices
+        - img: resources
+        - img: difficulty
+        - img: trust
+        - img: popularity
+    text1: In order to validate our problem we asked people to answer a questionaire about their learning habits and needs. We also asked some demographic related questions to gauge who our target user group would be. Aside from multiple or single choice answers we also asked open ended questions for which the results are summarized below.
+    open:
+        - question: About what domains have you studied in the past 6 months?
+          answer: The most popular answers were related to computer science and engineering (43 answers in total), which mostly referred to programming (8 answers), IT (7 answers), and AI (6 answers). These were followed by personal development related answers (15 in total), and art related answers (9 answers total).
+        - question: Do you organize the information you find in any way? If yes, how?
+          answer: Almost half of the participants (28 out of 60 at that moment) do not take notes as they learn. Regarding the other half, we observed a few general trends. 7 of them prefer to separate their materials into categories, 6 of them use diagrams and other ways of compressing the information, 6 of them take physical notes, 5 of them use tools to take notes (such as one note, google docs, etc), 5 of them sort the materials by difficulty and 3 of them could not be put into a category. It is important to note that these categories can overlap. For example someone who sorts the materials by difficulty could also be using an online tool for learning, but this aspect was not specified when completing the questionaire.
+        - question: What are the steps you follow when learning something new?
+          answer: "Here we observed the following trends: some of them start from general knowledge about the subject and then go on to particular information, some of them first look at the theory and then explore practical aspects such as exercises or hands on labs, some of them use mostly online resources, some of them read the materials they find repeatedly until they memorize." 
 
 solution_validation:
     section: solution_validation
