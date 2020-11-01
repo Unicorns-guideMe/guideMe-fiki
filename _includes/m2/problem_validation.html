@@ -35,8 +35,9 @@
         {% for q in site.data.m2.problem_validation.open %}
           <div class="row">
             <div class="col col-lg-12 text-justify">
-              <p> <b>{{q.question}} </b> </p>
-              <p> {{q.answer}} </p>
+              <p> <strong>{{q.question}} </strong>
+              <br>
+              {{q.answer}} </p>
             </div>
           </div>
         {% endfor %}
