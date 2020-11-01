@@ -4,14 +4,57 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.m2.solution_validation.title }}</h2>
+            <p class="text-justify">{{ site.data.m2.solution_validation.introtext }}</p>
         </div>
       </div>
-  
+
+      <div class="row">
+        {% for l in site.data.m2.solution_validation.interview %}
+          <div class="col col-lg-6 text-center">
+              <audio controls style="width: 100%;">
+                <source src="https://docs.google.com/uc?export=download&id={{l.audio}}">
+              </audio>
+          </div>
+      {% endfor %}
+      </div>
+
       <div class="row">
         <div class="col col-lg-12 text-center">
-          <p>Customers are nice. We want many of them. Also don't write text here. Put text and picture paths in _data/m2.yml under the specific section :)</p>
+          <p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+              Text interview
+            </button>
+          </p>
+          <div class="collapse" id="collapse{{ forloop.index }}">
+            <div class="card card-body text-justify">
+            {% for l in site.data.m2.solution_validation.textinterview %}
+              <p>
+                <strong>{{ l.question }}</strong><br>
+                {{ l.answer }}
+              </p>
+            {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 text-left">
+          <h5>{{ site.data.m2.solution_validation.questionstext }}</h5>
+        </div>
+      </div>
+
+      {% for l in site.data.m2.solution_validation.questions %}
+      <div class="row">
+        <div class="col col-lg-12 text-justify">
+            <p>
+              <strong>{{ l.question }}</strong>
+              <br>
+              {{ l.answer }} 
+            </p>
+        </div>
+      </div>
+      {% endfor %}
 
     </div>
 </section>
