@@ -78,6 +78,7 @@ timeline:
         includes:
             - link: m2/problem.html
             - link: m2/solution.html
+            - link: m2/general_plan.html
             - link: m2/problem_validation.html
             - link: m2/solution_validation.html
             - link: m2/conclusions.html

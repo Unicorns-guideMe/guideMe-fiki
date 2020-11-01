@@ -8,6 +8,11 @@ solution:
     title: Solution
 
 
+general_plan:
+    section: general_plan
+    title: General plan for validation
+    text: For the problem validation we thought a bigger group of people will offer better insights, which is why we created a Google Form. To make sure the form yields as much information as possible we went back and modified the questions after receiving feedback, after that we distributed it on social media and to friends and family. <br> For the solution validation we wanted to get closer to our potential customers, so we decided to conduct some interviews with people who had as little knowledge as possible about our idea. We took this approach because interviews allow us to come with questions on the spot, to understand better what would work and what would not work, but also what we have to focus on for the first iteration of the product.
+
 problem_validation:
     section: problem_validation
     title: Problem validation
