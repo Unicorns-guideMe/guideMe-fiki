@@ -43,7 +43,27 @@ problem_validation:
 solution_validation:
     section: solution_validation
     title: Solution validation
-
+    introtext: "We interviewed multiple people in order to validate our solution. We asked them a set of questions about their learning habits on the Internet, what tool they use and if a browser extension would be something that they would want to use. You can listen to the interviews here:"
+    interview:
+        - audio: daliana.m4a
+        - audio: dora.mp3
+        - audio: irina.mp3
+        - audio: george.mp3
+        - audio: vlad.mp3
+    questionstext: "These are the main questions that we asked and the answers that we received:"
+    questions:
+        - question: "What browser are you using?"
+          answer: "Google Chrome is the general choice. 1 out of 5 people use Microsoft Edge. Firefox is also used sometimes, when Chrome drains a lot of resources."
+        - question: "How often do you use browser extensions?"
+          answer: "1 out of 5 people does not use browser extensions. The rest of the interviewees use AdBlocker and rarely use other browser extentsions."
+        - question: "What resources and tools do you use when you are learning?"
+          answer: "Platforms that interviewees use when searching for information: Google Scholar, scientific articles, videos, tutorials, complete courses, Coursera, edX, Udemy, geeksforgeeks, StackOverflow and tehnical documentation. Tools that interviewees use: Mendeley, EndNotes, Notepad, Google Keep, Google Docs, Bookmarks, Microsoft Office, Microsoft ToDo, Microsoft Calendar."
+        - question: "What problems have you encounterned when learning from the Internet?"
+          answer: "Contradictory or incomplete information, difficulties in finding how useful or advanced a resource is, difficulties in organizing information, not using the right keywords when searching for information, a lot of resources are not free and you cannot access them as a student."
+        - question: "How do you organize your information?"
+          answer: "Besides using the tools mentioned, 2 out of 5 people prefer to take notes using pen and paper. 1 out of 5 people has difficulties in structuring information."
+        - question: "How likely is it that you would use a browser extensions for learning recommendations?"
+          answer: "Interviewees found our solution useful and stated that it could save a lot of time, but they would use it only if it has a lot of users and good reviews."
 
 conclusions:
     section: m2_conclusions
