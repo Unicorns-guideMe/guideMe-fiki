@@ -9,9 +9,22 @@
 
     <div class="row">
       <div class="col col-lg-12 text-center">
-        <p>This will contain key information that will guide us to success. Also don't write text here. Put text and picture paths in _data/m2.yml under the specific section :)</p>
+        <div class="row">
+          <div class="col col-lg-12 text-justify">
+            <p> {{ site.data.m2.problem_validation.text1 }} </p>
+          </div>
+        </div>
+        {% for l in site.data.m2.problem_validation.list %}
+          <div class="row">
+            <div class="col col-lg-12 text-center">
+              <img src="assets/img/problem_validation/{{ l.img }}.png" alt="{{ l.img }}" width=80% class="center"/>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
       </div>
     </div>
+
 
   </div>
 </section>

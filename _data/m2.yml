@@ -11,6 +11,18 @@ solution:
 problem_validation:
     section: problem_validation
     title: Problem validation
+    list:
+        - img: age
+        - img: gender
+        - img: college
+        - img: work
+        - img: time_spent_learning
+        - img: devices
+        - img: resources
+        - img: difficulty
+        - img: trust
+        - img: popularity
+    text1: In order to validate our problem we asked people to answer a questionaire about their learning habits and needs. We also asked some demographic related questions to gauge who our target user group would be. Aside from multiple or single choice answers we also asked open ended questions for which the results are summarized below.
 
 
 solution_validation:
