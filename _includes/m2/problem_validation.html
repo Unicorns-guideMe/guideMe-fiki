@@ -14,6 +14,12 @@
             <p> {{ site.data.m2.problem_validation.text1 }} </p>
           </div>
         </div>
+        <div class="row">
+          <div class="col col-lg-12 text-justify">
+            <h5> Multiple/Single choice questions </h5>
+          </div>
+        </div>
+        <br>
         {% for l in site.data.m2.problem_validation.list %}
           <div class="row">
             <div class="col col-lg-12 text-center">
@@ -21,10 +27,20 @@
             </div>
           </div>
         {% endfor %}
+        <div class="row">
+          <div class="col col-lg-12 text-justify">
+            <h5> Open-ended questions </h5>
+          </div>
         </div>
+        {% for q in site.data.m2.problem_validation.open %}
+          <div class="row">
+            <div class="col col-lg-12 text-justify">
+              <p> <b>{{q.question}} </b> </p>
+              <p> {{q.answer}} </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
       </div>
     </div>
-
-
-  </div>
 </section>
