@@ -43,13 +43,26 @@ problem_validation:
 solution_validation:
     section: solution_validation
     title: Solution validation
-    introtext: "We interviewed multiple people in order to validate our solution. We asked them a set of questions about their learning habits on the Internet, what tool they use and if a browser extension would be something that they would want to use. You can listen to the interviews here:"
+    introtext: "We interviewed multiple people in order to validate our solution. We asked them a set of questions about their learning habits on the Internet, what tool they use and if a browser extension would be something that they would want to use. You can check out the interviews here:"
     interview:
-        - audio: daliana.m4a
-        - audio: dora.mp3
-        - audio: irina.mp3
-        - audio: george.mp3
-        - audio: vlad.mp3
+        - audio: 1SfCPCH9Hr_sRsp6iDx-__vZLXJDG0mFr
+        - audio: 1HoD9jEWLBaYvxBGrtYkD0hMeVNo0B0b3
+        - audio: 19QIaKn8hpcANlO2990c7pAZ1k_cp4aQv
+        - audio: 1tGlUhBOGxGAeoLKj-Gu85LG5dTsHhLoo
+    textinterview:
+        - id: 1
+          question: "Ce browser folosesti deobicei?"
+          answer: "Microsoft Edge, mi se pare lately mult mai lightweight decat Google Chrome si nu mi-e dor, am adoptat 100% edge."
+        - id: 2
+          question: "Cat de des folosesti extensii in browser? Ai vreo extensie care te ajuta activ cu ceva?"
+          answer: "Adblocker e crucial, in rest nu folosesc ceva on a regular basis."
+        - id: 3
+          question: "Ce tool-uri folosesti ca sa inveti si ce probleme ai intalnit? (aici ma intereseaza si de unde inveti, si cum inveti, cum te organizezi, tot ce faci cand inveti ceva)"
+          answer: "De obicei, daca invat ceva, caut un scurt video pe youtube (10-15 min) care sa-mi dea o idee generala in legatura cu conceptul respectiv - dupa, incep sa scad incet-incet nivelul de abstractizare si caut lucruri din ce in ce mai complexe (documentatie oficiala, stack overflow) - in general aplicabil pentru limbaje, ca n-are rost sa folosesti mai multe limbaje pentru acelasi lucru, asa ca incep sa caut care-s avantajele si sa folosesc constructiile care aduc un + in expresivitate fata de limbajele pe care le folosesc oricum deja. Ca sa ma organizez, folosesc Microsoft To Do - mi-am pus acolo, pentru fiecare proiect de facultate, task-uri pe care tre sa le fac. daca ma apuc sa invat ceva, incerc sa imi impart task-ul pe subtask-uri si le pun tot acolo. linkez deadline-urile in Microsoft Calendar, ca sa nu uit ca tre sa fac ceva."
+        - id: 4
+          question: "Ce probleme ai intalnit cand ai invatat de pe net?"
+          answer: "Informatii incomplete, dificultate in a structura informatiile, in a le sorta."
+
     questionstext: "These are the main questions that we asked and the answers that we received:"
     questions:
         - question: "What browser are you using?"
