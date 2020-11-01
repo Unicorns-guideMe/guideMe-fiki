@@ -1,12 +1,16 @@
 problem:
     section: problem
-    title: Problem
-
-
+    title: How we identified the problem
+    text1:
+        headline: Personal experience
+        body: During our undergraduate years, we noticed that almost everytime we study for an exam or do our assignments, we end-up with 20+ opened browser tabs, not remembering where we had seen a piece of information we had to read again and searching through our browsing history for that one essential webpage we had found after one hour of researching, but closed it by mistake. These obstacles are time-consumming and distract us while trying to learn something, therefore we considered that there is room for improvement.
+    text2:    
+        headline: Validation from others
+        body: We got the confirmation that others have the same issues from casual conversations with our friends and classmates.
 solution:
     section: solution
-    title: Solution
-
+    title: What we believe could be the solution
+    text: Our idea is to develop a learning assistant that helps the user in the process of finding the right resources, saving and organizing them as well. The project comes as a browser plugin, that shows users recommended resources when they search for a certain topic and allows them to save web pages and keep notes in a journal. In addition, the user can rate the quality of the content, and mark the understanding level needed in order to be able to gain knowledge from it (beginner, intermediate, advanced, expert).
 
 general_plan:
     section: general_plan
