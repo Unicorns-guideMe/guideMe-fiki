@@ -58,6 +58,7 @@ solution_validation:
           answer: "De obicei, daca invat ceva, caut un scurt video pe youtube (10-15 min) care sa-mi dea o idee generala in legatura cu conceptul respectiv - dupa, incep sa scad incet-incet nivelul de abstractizare si caut lucruri din ce in ce mai complexe (documentatie oficiala, stack overflow) - in general aplicabil pentru limbaje, ca n-are rost sa folosesti mai multe limbaje pentru acelasi lucru, asa ca incep sa caut care-s avantajele si sa folosesc constructiile care aduc un + in expresivitate fata de limbajele pe care le folosesc oricum deja. Ca sa ma organizez, folosesc Microsoft To Do - mi-am pus acolo, pentru fiecare proiect de facultate, task-uri pe care tre sa le fac. daca ma apuc sa invat ceva, incerc sa imi impart task-ul pe subtask-uri si le pun tot acolo. linkez deadline-urile in Microsoft Calendar, ca sa nu uit ca tre sa fac ceva."
         - question: "Ce probleme ai intalnit cand ai invatat de pe net?"
           answer: "Informatii incomplete, dificultate in a structura informatiile, in a le sorta."
+    text_interview_proof: https://drive.google.com/file/d/1k0KC6Nakgvpsb_YJbYeYO255clX72U5a/view?usp=sharing
 
     questionstext: "These are the main questions that we asked and the answers that we received:"
     questions:
