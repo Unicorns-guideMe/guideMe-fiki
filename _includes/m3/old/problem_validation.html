@@ -1,0 +1,47 @@
+<section class="page-section" id="{{ site.data.m2.problem_validation.section | default: "problem_validation" }}">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.m2.problem_validation.title }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-lg-12 text-center">
+        <div class="row">
+          <div class="col col-lg-12 text-justify">
+            <p> {{ site.data.m2.problem_validation.text1 }} </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-lg-12 text-justify">
+            <h5> Multiple/Single choice questions </h5>
+          </div>
+        </div>
+        <br>
+        {% for l in site.data.m2.problem_validation.list %}
+          <div class="row">
+            <div class="col col-lg-12 text-center">
+              <img src="assets/img/problem_validation/{{ l.img }}.png" alt="{{ l.img }}" width=80% class="center"/>
+            </div>
+          </div>
+        {% endfor %}
+        <div class="row">
+          <div class="col col-lg-12 text-justify">
+            <h5> Open-ended questions </h5>
+          </div>
+        </div>
+        {% for q in site.data.m2.problem_validation.open %}
+          <div class="row">
+            <div class="col col-lg-12 text-justify">
+              <p> <strong>{{q.question}} </strong>
+              <br>
+              {{q.answer}} </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      </div>
+    </div>
+</section>
