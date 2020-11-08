@@ -17,7 +17,7 @@ url    : "https://unicorns-guideme.github.io" # the base hostname & protocol for
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : GuideMe
-email      : guideme@gmail.com #this is also the email contact forms will go to
+email      : unicorns.guideme@gmail.com #this is also the email contact forms will go to
 description: "The lighthouse of learning."
 author     : Unicorns
 # logo:     #optional, defaults to site title

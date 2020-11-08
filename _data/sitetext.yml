@@ -82,5 +82,11 @@ timeline:
             - link: m2/problem_validation.html
             - link: m2/solution_validation.html
             - link: m2/conclusions.html
-        disabled: no # remove when this is ready to be shown to the world
+      - title: "M3 - Wireframe and Landing Page"
+        desc: "The third milestone consists of building wireframes for our proposed solution in order to describe the functionalities. In addition, a landing page is required for promoting our product to future customers."
+        image: assets/img/timeline/3.jpg
+        has_more: M3
+        includes:
+            - link: m3/wireframes.html
+            - link: m3/landing_page.html
     end: "More <br> Coming <br> Soon!"
