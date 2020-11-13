@@ -90,7 +90,7 @@ timeline:
             - link: m3/wireframes.html
             - link: m3/landing_page.html
       - title: "M4 - User experience"
-        desc: "In this milestone we validate our problem and solution once more by conducting interviews, and we also map out user flows, cases, persona and the use cases of our platform."
+        desc: "In this milestone we validate our problem and solution once more by conducting another round of interviews. We also map out user flows, stories, personas and we determine the use cases of our solution."
         image: assets/img/timeline/4.jpg
         has_more: M4
         includes:
