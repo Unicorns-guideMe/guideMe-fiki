@@ -7,14 +7,27 @@
         </div>
       </div>
 
-      <div class="row">
-      {% for l in site.data.m4.interviews.audio_files %}
-          <div class="col col-lg-6 text-center">
-              <audio controls style="width: 100%;">
+      <div class="row text-justify justify-content-md-center">
+        <p>{{ site.data.m4.interviews.desc }}</p>
+          {% for l in site.data.m4.interviews.audio_files %}
+          <div class="col col-lg-4 text-center">
+            <audio controls style="width: 100%;">
                 <source src="https://docs.google.com/uc?export=download&id={{l.audio}}">
               </audio>
-          </div>
-      {% endfor %}
+            </div>
+        {% endfor %}
+      </div>
+
+      <div class="row text-justify">
+          {% for l in site.data.m4.interviews.list %}
+            <p><strong>{{ l.q }}</strong><br>{{ l.a }}</p>
+          {% endfor %}
+
+          <h3>Takeaways</h3>
+
+          {% for l in site.data.m4.interviews.takeaways %}
+            <p>{{ l.t }}</p>
+          {% endfor %}
       </div>
 
     </div>
