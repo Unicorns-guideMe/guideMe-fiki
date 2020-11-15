@@ -8,13 +8,17 @@
       </div>
 
       <div class="row">
-      {% for l in site.data.m4.interviews.audio_files %}
-          <div class="col col-lg-6 text-center">
+        <div class="col col-lg-4 text-center">
+          {% for l in site.data.m4.interviews.audio_files %}
               <audio controls style="width: 100%;">
                 <source src="https://docs.google.com/uc?export=download&id={{l.audio}}">
               </audio>
-          </div>
-      {% endfor %}
+          {% endfor %}
+        </div>
+
+        <div class="col col-lg-8 text-justify">
+          <p>Stuff</p>
+        </div>
       </div>
 
     </div>

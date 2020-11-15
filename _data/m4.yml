@@ -2,11 +2,12 @@ interviews:
     section: interviwes
     title: Interviews
     audio_files:
-        - audio: 1SfCPCH9Hr_sRsp6iDx-__vZLXJDG0mFr
-        - audio: 1HoD9jEWLBaYvxBGrtYkD0hMeVNo0B0b3
-        - audio: 19QIaKn8hpcANlO2990c7pAZ1k_cp4aQv
-        - audio: 1tGlUhBOGxGAeoLKj-Gu85LG5dTsHhLoo
- 
+        - audio: 1sSl5kd4qb633uIcMl73fepfwDyW1cg7v # vlad
+        - audio: 1xSLqLUpdjJsoWikVbL7UthUw-HU-8yqz # dora
+        - audio: 1MMYUTP4xhfISmxtNgkhuSUoydDRHXfZr # daliana
+        - audio: 14okMpK62tAaBY7GS263TtHeMfbTIbQfh # irina
+        - audio: 1_CVtPPvL1j8IojlJqL2q46tMeGH07UP2 # george
+
 user_persona:
     section: user_persona
     title: User Persona
@@ -14,15 +15,15 @@ user_persona:
 user_stories:
     section: user_stories
     title: User Stories
-    
+
 use_cases:
     section: use_cases
     title: Use Cases
-    
+
 user_flows:
     section: user_flows
     title: User Flows
-    
+
 wireframe_updates:
     section: wireframe_updates
     title: Wireframe Updates
