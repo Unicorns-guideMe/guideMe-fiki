@@ -10,18 +10,18 @@ interviews:
     desc: In this round of interviews we mostly sticked to the questions from the previous round, developing more on where people have problems, either with the resources used while learning or with organizing the materials. We interviewed 5 people for this round.
     list:
         - q: What browser are you using?
-          a: Everyone said Google Chrome is their main problem. Some of them ocasionally use Mozilla.
+          a: Everyone said Google Chrome is their main browser. Some of them ocasionally use Firefox.
         - q: What browser extensions do you use?
           a: Once again, adblock is the main browser extension. One person said they also ocasionally use Honey and Boomerang for GMail, while another person said they sometimes use DuckDuckGo. One person out of the 5 seems to use extensions on a daily basis, mentioning they use an ad blocker, google arts and culture, grammarly and Honey.
         - q: What tools do you use when you learn? How do you organize the resources?
-          a: All of them use some form of online resource (youtube tutorials, scientific articles, e-learning platforms like Coursera, official documentation and whatever resources google searches yield). <br> When it comes to organizing the materials, dependin on how serious the subject is, the people we interviewed use a range of tools, from google docs to simply downloading articles and other resources for offline use. Most of them take physical notes only when the subject is important (meaning it's important or they have an exam on the subject)
+          a: All of them use some form of online resource (youtube tutorials, scientific articles, e-learning platforms like Coursera, official documentation and whatever resources google searches yield). <br> When it comes to organizing the materials, depending on how serious the subject is, the people we interviewed use a range of tools, from google docs to simply downloading articles and other resources for offline use. Most of them take physical notes only when the subject is important (they have an exam on the subject)
         - q: What problems did you encounter when learning online?
           a: Two people said they get lost in all the resources they find. They said it's sometimes difficult to piece together information from different sources. Another person said that some websites have flashy ads or interfaces that distract them from learning.
         - q: After describing our solution we asked them to envision how they would use it.
           a: One person said that a simple Notepad-like dump of the notes would not work for them. Most of them reiterated that the main usage would be saving links, as it happens often that they realise later that a link had a piece of information they need, but can't find it again.
     takeaways:
         - t: We have to find a way to convince users to save resources as they search for them. One person said they could bookmark the useful resources, but they simply don't. This seens to be the case with the other people as well.
-        - t: The plugin is a good idea because it doesn't take the focus from learning (users would not have to leave a website in order to save it). But we have to convince people to actively use a browser extension, a thing most don't do.
+        - t: The plugin is a good idea because it doesn't take the focus from learning (users would not have to leave a website in order to save it). But we have to convince people to actively use a browser extension, a thing most don't.
 
 user_persona:
     section: user_persona
