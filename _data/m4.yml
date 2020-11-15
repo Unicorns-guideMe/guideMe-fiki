@@ -26,3 +26,4 @@ user_flows:
 wireframe_updates:
     section: wireframe_updates
     title: Wireframe Updates
+    description: After the first round of interviews we discovered that integration with other platforms could benefit our solution. We now intend to offer the possibility of importing notes from PC, One Note, Google Drive and Evernote.
