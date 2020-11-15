@@ -1,12 +1,16 @@
 problem:
     section: problem
-    title: Problem
-
-
+    title: How we identified the problem
+    text1:
+        headline: Personal experience
+        body: During our undergraduate years, we noticed that almost everytime we study for an exam or do our assignments, we end-up with 20+ opened browser tabs, not remembering where we had seen a piece of information we had to read again and searching through our browsing history for that one essential webpage we had found after one hour of researching, but closed it by mistake. These obstacles are time-consumming and distract us while trying to learn something, therefore we considered that there is room for improvement.
+    text2:    
+        headline: Validation from others
+        body: We got the confirmation that others have the same issues from casual conversations with our friends and classmates.
 solution:
     section: solution
-    title: Solution
-
+    title: What we believe could be the solution
+    text: Our idea is to develop a learning assistant that helps the user in the process of finding the right resources, saving and organizing them as well. The project comes as a browser plugin, that shows users recommended resources when they search for a certain topic and allows them to save web pages and keep notes in a journal. In addition, the user can rate the quality of the content, and mark the understanding level needed in order to be able to gain knowledge from it (beginner, intermediate, advanced, expert).
 
 general_plan:
     section: general_plan
@@ -39,12 +43,48 @@ problem_validation:
 solution_validation:
     section: solution_validation
     title: Solution validation
+    introtext: "We interviewed multiple people in order to validate our solution. We asked them a set of questions about their learning habits on the Internet, what tool they use and if a browser extension would be something that they would want to use. You can check out the interviews here:"
+    interview:
+        - audio: 1SfCPCH9Hr_sRsp6iDx-__vZLXJDG0mFr
+        - audio: 1HoD9jEWLBaYvxBGrtYkD0hMeVNo0B0b3
+        - audio: 19QIaKn8hpcANlO2990c7pAZ1k_cp4aQv
+        - audio: 1tGlUhBOGxGAeoLKj-Gu85LG5dTsHhLoo
+    textinterview:
+        - question: "Ce browser folosesti deobicei?"
+          answer: "Microsoft Edge, mi se pare lately mult mai lightweight decat Google Chrome si nu mi-e dor, am adoptat 100% edge."
+        - question: "Cat de des folosesti extensii in browser? Ai vreo extensie care te ajuta activ cu ceva?"
+          answer: "Adblocker e crucial, in rest nu folosesc ceva on a regular basis."
+        - question: "Ce tool-uri folosesti ca sa inveti si ce probleme ai intalnit? (aici ma intereseaza si de unde inveti, si cum inveti, cum te organizezi, tot ce faci cand inveti ceva)"
+          answer: "De obicei, daca invat ceva, caut un scurt video pe youtube (10-15 min) care sa-mi dea o idee generala in legatura cu conceptul respectiv - dupa, incep sa scad incet-incet nivelul de abstractizare si caut lucruri din ce in ce mai complexe (documentatie oficiala, stack overflow) - in general aplicabil pentru limbaje, ca n-are rost sa folosesti mai multe limbaje pentru acelasi lucru, asa ca incep sa caut care-s avantajele si sa folosesc constructiile care aduc un + in expresivitate fata de limbajele pe care le folosesc oricum deja. Ca sa ma organizez, folosesc Microsoft To Do - mi-am pus acolo, pentru fiecare proiect de facultate, task-uri pe care tre sa le fac. daca ma apuc sa invat ceva, incerc sa imi impart task-ul pe subtask-uri si le pun tot acolo. linkez deadline-urile in Microsoft Calendar, ca sa nu uit ca tre sa fac ceva."
+        - question: "Ce probleme ai intalnit cand ai invatat de pe net?"
+          answer: "Informatii incomplete, dificultate in a structura informatiile, in a le sorta."
+    text_interview_proof: https://drive.google.com/file/d/1k0KC6Nakgvpsb_YJbYeYO255clX72U5a/view?usp=sharing
 
+    questionstext: "These are the main questions that we asked and the answers that we received:"
+    questions:
+        - question: "What browser are you using?"
+          answer: "Google Chrome is the general choice. 1 out of 5 people use Microsoft Edge. Firefox is also used sometimes, when Chrome drains a lot of resources."
+        - question: "How often do you use browser extensions?"
+          answer: "1 out of 5 people does not use browser extensions. The rest of the interviewees use AdBlocker and rarely use other browser extentsions."
+        - question: "What resources and tools do you use when you are learning?"
+          answer: "Platforms that interviewees use when searching for information: Google Scholar, scientific articles, videos, tutorials, complete courses, Coursera, edX, Udemy, geeksforgeeks, StackOverflow and tehnical documentation. Tools that interviewees use: Mendeley, EndNotes, Notepad, Google Keep, Google Docs, Bookmarks, Microsoft Office, Microsoft ToDo, Microsoft Calendar."
+        - question: "What problems have you encounterned when learning from the Internet?"
+          answer: "Contradictory or incomplete information, difficulties in finding how useful or advanced a resource is, difficulties in organizing information, not using the right keywords when searching for information, a lot of resources are not free and you cannot access them as a student."
+        - question: "How do you organize your information?"
+          answer: "Besides using the tools mentioned, 2 out of 5 people prefer to take notes using pen and paper. 1 out of 5 people has difficulties in structuring information."
+        - question: "How likely is it that you would use a browser extensions for learning recommendations?"
+          answer: "Interviewees found our solution useful and stated that it could save a lot of time, but they would use it only if it has a lot of users and good reviews."
 
 conclusions:
     section: m2_conclusions
     title: Conclusions
     intro: From all the answers we gathered, we found that people rely on the internet when learning something new. Usually, they start from general aspects of those subjects, and after that, they move to specific information. The most popular resources are video tutorials, online articles and courses. But before selecting what materials to learn from, they have to know if they are trustworthy. To find that, they search reviews as notes or comments or ask acquaintances.
     pr_val: The problems people often have when trying to study is that there is a lot of information on the internet and they do not know where to start. The information is not structured according to their needs, it is sometimes incomplete or taken out of the context. These facts confirm the problem discovered by us. 
+<<<<<<< HEAD
     sol_val: Moreover, when studying something new, most people do not use a certain tool they use to find materials, they have particular methods to find what they need, but they use organizational tools, to structure their tasks. Also, they do not use many extensions, but when they find a very useful one, they stick to that.  The majority of the persons we interviewed would find very useful and time-saving, a tool to see suggestions about what to learn based on their needs, level of knowledge and the reviews from other users.
     end: All these facts validate our solution. So our next step will be to implement a browser extension that will show to users resources based on the domain of interest, level of knowledge, reviews and where every user can save the most liked materials and mark them.
+=======
+    sol_val: Moreover, when studying something new, most people do not use a certain tool to find materials, they have particular methods to find what they need, but they use organizational tools, to structure their tasks. Also, they do not use many extensions, but when they find a very useful one, they stick to that. The majority of the persons we interviewed would find a tool to see suggestions about what to learn based on their needs, level of knowledge and the reviews from other users to be very useful and time-saving.
+    tools: We also discovered what digital tools people use when learning. We can leverage that information by integrating those tools with our plugin so that cross platform notes can be kept in one place. As our plugin relies heavily on user input for recommendations, we first have to build a strong component for note taking. After that is in place and we have a usable knowledge base, we can advance to recommendations.
+    end: All these facts validate our solution. So our next step will be to implement a browser extension that will allow users to take notes and mark relevant web resources, and consequently show to users resources based on the domain of interest, level of knowledge and reviews.
+>>>>>>> dd5012dad1dad4e9edea16452500ffbb05f54d80

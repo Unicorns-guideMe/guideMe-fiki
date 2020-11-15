@@ -1,4 +1,4 @@
-<section class="page-section" id="{{ site.data.m2.problem.section | default: "problem" }}">
+<section class="bg-light page-section" id="{{ site.data.m2.problem.section | default: "problem" }}">
     <div class="container">
       
       <div class="row">
@@ -8,8 +8,13 @@
       </div>
 
       <div class="row">
-        <div class="col col-lg-12 text-center">
-          <p>We are not the problem. Also don't write text here. Put text and picture paths in _data/m2.yml under the specific section :)</p>
+        <div class="col col-lg-4 text-center">
+          <img src="assets/img/data_organization.png" width=100% alt="Data organization"/>
+        </div>
+
+        <div class="col col-lg-8 text-justify">
+          <p><b>{{ site.data.m2.problem.text1.headline}}:</b> {{ site.data.m2.problem.text1.body }}</p>
+          <p><b>{{ site.data.m2.problem.text2.headline}}:</b> {{ site.data.m2.problem.text2.body }}</p>
         </div>
       </div>
   

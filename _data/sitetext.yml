@@ -82,5 +82,22 @@ timeline:
             - link: m2/problem_validation.html
             - link: m2/solution_validation.html
             - link: m2/conclusions.html
-        disabled: no # remove when this is ready to be shown to the world
+      - title: "M3 - Wireframe and Landing Page"
+        desc: "The third milestone consists of building wireframes for our proposed solution in order to describe the functionalities. In addition, a landing page is required for promoting our product to future customers."
+        image: assets/img/timeline/3.jpg
+        has_more: M3
+        includes:
+            - link: m3/wireframes.html
+            - link: m3/landing_page.html
+      - title: "M4 - User experience"
+        desc: "In this milestone we validate our problem and solution once more by conducting another round of interviews. We also map out user flows, stories, personas and we determine the use cases of our solution."
+        image: assets/img/timeline/4.jpg
+        has_more: M4
+        includes:
+            - link: m4/interviews.html
+            - link: m4/user_persona.html
+            - link: m4/user_stories.html
+            - link: m4/use_cases.html
+            - link: m4/user_flows.html
+            - link: m4/wireframe_updates.html
     end: "More <br> Coming <br> Soon!"
