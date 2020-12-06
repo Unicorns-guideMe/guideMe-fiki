@@ -1,0 +1,40 @@
+social_media:
+  section: social_media
+  title: Advertising the landing page
+  desc: The main channels we used were Facebook, LinkedIn and WhatsApp.
+  img_ads: 
+    - path: assets/img/m5/1.jpg
+    - path: assets/img/m5/2.png
+    - path: assets/img/m5/3.png
+    - path: assets/img/m5/4.png
+      link: https://www.linkedin.com/posts/irina-sandu-87b747118_guideme-the-lighthouse-of-learning-activity-6737298030137016320-PYpT
+    - path: assets/img/m5/5.png
+      link: https://www.linkedin.com/posts/george-marius-diaconu-72ab84177_guideme-the-lighthouse-of-learning-activity-6738173477456527360-pty3
+    - path: assets/img/m5/6.png
+      link: https://www.facebook.com/george.diaconu.97/posts/4132191563475816
+    - path: assets/img/m5/7.png
+      link: https://www.facebook.com/george.diaconu.97/posts/4140724899289149
+
+traffic_data:
+  section: traffic_data
+  title: Landing page user traffic
+  desc: The goal of the landing page was to gather email addresses from people who were interested in our project in order to send them an email when we launch. We had <strong>137 unique users</strong> on our landing page in the last 2 weeks. They were spread accross 7 countries, with 119 of them being from Romania. We managed to gather <strong>28 email</strong> addresses.
+  traffic_img:
+    - img: assets/img/m5/who_linkedin.png
+    - img: assets/img/m5/who_linkedin_2.png
+    - img: assets/img/m5/analytics.png
+    - img: assets/img/m5/heatmap_desktop.jpg
+    - img: assets/img/m5/heatmap_mobile.jpg
+
+comparison:
+  section: m5_comparison
+  title: Advertising channels comparison
+  facebook:
+    desc: We posted on Facebook twice. Although the posts didn't get many likes, HotJar recordings showed about 20 users came from Facebook. After looking at the recordings from HotJar we approximate that about <strong>5</strong> people coming from Facebook subscribed to the newsletter. Also, looking at the data gathered by Google Analytics, the second post drove the most views from Facebook. The reason is most likely the fact that the first post was sent late in the night while the second was sent in the evening, when people are more likely to browse Facebook.
+    yield: low
+  whatsapp:
+    desc: We sent messages to groups and friends asking them to check out our landing page and to subscribe to the newsletter if they saw value in our idea. We approximate that <strong>10</strong> emails came from WhatsApp, judging by the timestamps of when we received the emails and when we posted the messages. This channel was great because we also got to answer questions and receive valuable feedback.
+    yield: moderate
+  linkedin:
+    desc: The 2 LinkedIn posts gained <strong>400+ views</strong>. LinkedIn yielded most of the views to the landing page and most of the emails, about <strong>15</strong>. This channel gave us some insights on who saw our posts (studies, employer, position). Most of the people who saw our posts are software developers or computer science students. We managed to reach people from 10 different companies with roles ranging from junior developers to executives.
+    yield: good

@@ -1,0 +1,42 @@
+<section class="page-section" id="{{ site.data.m5.comparison.section | default: "m5_comparison" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.m5.comparison.title }}</h2>
+            </div>
+        </div>
+
+        <div class="row text-justify justify-content-md-center">
+            <div class="col-4">
+                <h4>
+                    Facebook
+                    <span class="badge badge-light" style="background-color: #f6695b;">
+                        {{ site.data.m5.comparison.facebook.yield }}
+                    </span>
+                </h4>
+                <p>{{ site.data.m5.comparison.facebook.desc }}</p>
+            </div>
+
+            <div class="col-4">
+                <h4>
+                    WhatsApp
+                    <span class="badge badge-light" style="background-color: #fefec4;">
+                        {{ site.data.m5.comparison.whatsapp.yield }}
+                    </span>
+                </h4>
+                <p>{{ site.data.m5.comparison.whatsapp.desc }}</p>
+            </div>
+
+            <div class="col-4">
+                <h4>
+                    LinkedIn
+                    <span class="badge badge-light" style="background-color: #1ac670;">
+                        {{ site.data.m5.comparison.linkedin.yield }}
+                    </span>
+                </h4>
+                <p>{{ site.data.m5.comparison.linkedin.desc }}</p>
+            </div>
+        </div>
+
+    </div>
+</section>
