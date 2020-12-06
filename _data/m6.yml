@@ -10,7 +10,45 @@ target_market:
 competitors:
     section: competitors
     title: Competitors
-    desc: competitors description
+    description: "Our product resembles a web clipper with added functionalities, so in order to determine who are our competitors we searched for 'web clipper' in chrome web store and obtained ~90 relevant results, and these are the most popular ones:"
+    competitorslist:
+        - comp: Google Keep
+          users: 7,000,000+
+          description: Allows the user to save URLs, text and images, take notes on saved content and add labels.
+          image : assets/img/googlekeep.png
+
+        - comp: Evernote
+          users: 4,000,000+
+          description: Evernote used to be the most popular app in this field a few years ago, but now other apps are taking its place. With Evernote Web Clipper you can clip web pages, with special clipping for Gmail, Amazon, YT and LinkedIn, you can highlight and annotate, clip to a notebook, sync across devices, share and email your clips.
+          image : assets/img/evernote.png
+
+        - comp: Save to Pocket
+          users: 2,000,000+
+          description: Allows the user to save articles, images, videos, links. They advertise themselves as 'a clean, distraction-free space—there to read when you’re ready' and ' a personal, quiet corner of the internet where you can spend quality time with the stories that matters to you'. 
+          image : assets/img/pocket.png
+
+        - comp: OneNote
+          users: 1,000,000+
+          description: Developed by Microsoft, OneNote allows you to save web pages, PDFs, images, videos. Users can access OneNote from any device, share their saved information and has also a search functionality.
+          image : assets/img/onenote.svg
+
+        - comp: Notion
+          users:  500,000+ 
+          description:
+          image : assets/img/notion.png
+
+        - comp: Notebook
+          users: 100,000+
+          description:
+          image : assets/img/notebook.png
+
+        - comp: Nimbus
+          users: 50,000+
+          description:
+          image : assets/img/nimbus.png
+
+    conclusion: All of these web clippers offer almost the same functionalities and are actually a secondary tool for note taking apps for desktop and mobile. It is important to note that the most popular ones are part of big ecosystems like Google and Microsoft.
+
 
 potential_market_share:
     section: potential_market_share
