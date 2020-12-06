@@ -100,6 +100,14 @@ timeline:
             - link: m4/use_cases.html
             - link: m4/user_flows.html
             - link: m4/wireframe_updates.html
+      - title: "M5 - Validation 2"
+        desc: "In this milestone we did another round of validation. We polished the landing page and added Google Analytics and HotJar to monitor the number of users and their interaction with the page. We advertised our project on social media and in our friend groups to drive traffic to our landing page."
+        image: assets/img/validation.svg
+        has_more: M5
+        includes:
+          - link: m5/social_media_posts.html
+          - link: m5/traffic_data.html
+          - link: m5/comparison.html
       - title: "M6 - Market Research"
         desc: "In this milestone we analyze the target market, our competitors and approximate what our market share would look like over a 5 year timeframe."
         image: assets/img/market_research.png
