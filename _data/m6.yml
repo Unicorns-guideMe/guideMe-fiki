@@ -1,7 +1,11 @@
 target_market:
     section: target_market
     title: Target Market
-    desc: target market description
+    desc1: "Our target market is divided into two main sets: <b> students </b> and <b> working professionals </b> that want to expand their knowledge."
+    desc2: "We expect the majority of our clients to be students, because they have the greatest need for taking notes. We will focus on this segment at first because it is easier to get an estimate on the size of the market."
+    desc3: "A statistic from the Romania Nationat Statistics Institute shows that for the school year of 2019-2020 there are roughly <b> 400.000 students </b>.
+    In the beginning we expect to have a presence only in the Romanian market, because it will be easier for us to advertise. But as our bussines 
+    grows we can very easily expand our product to an international audience. A statistc from the eurostat website, says that in 2018 there were <b> 17.5 million students in the EU </b>."
 
 competitors:
     section: competitors
