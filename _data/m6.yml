@@ -1,0 +1,24 @@
+target_market:
+    section: target_market
+    title: Target Market
+    desc: target market description
+
+competitors:
+    section: competitors
+    title: Competitors
+    desc: competitors description
+
+potential_market_share:
+    section: potential_market_share
+    title: Potential market share in the first 5 years
+    desc: Potential Market Share description
+
+market_value:
+    section: market_value
+    title: Market value in the first 5 years
+    desc: Market Value description
+
+conclusions:
+    section: conclusions
+    title: Conclusions
+    desc: Conclusions description

@@ -100,4 +100,14 @@ timeline:
             - link: m4/use_cases.html
             - link: m4/user_flows.html
             - link: m4/wireframe_updates.html
+      - title: "M6 - Market Research"
+        desc: "In this milestone we analyze the target market, our competitors and approximate what our market share would look like over a 5 year timeframe."
+        image: assets/img/market_research.png
+        has_more: M6
+        includes: 
+            - link: m6/target_market.html
+            - link: m6/competitors.html
+            - link: m6/potential_market_share.html
+            - link: m6/market_value.html
+            - link: m6/conclusions.html
     end: "More <br> Coming <br> Soon!"
