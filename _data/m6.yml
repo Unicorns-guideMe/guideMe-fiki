@@ -53,14 +53,102 @@ competitors:
 potential_market_share:
     section: potential_market_share
     title: Potential market share in the first 5 years
-    desc: Potential Market Share description
+    desc: Judging by the popularity of note-taking apps and learning assistants that are available out there, we made an approximation of our potential market share spanning on a period of 5 years.
+    table1:
+        - name: Google Keep
+          users: 7.000.000
+          percentage: 47.78%
+          id: 1
+        - name: Evernote
+          users: 4.000.000
+          percentage: 27.30%
+          id: 2
+        - name: Pocket
+          users: 2.000.000
+          percentage: 13.65%
+          id: 3
+        - name: OneNote
+          users: 1.000.000
+          percentage: 6.82%
+          id: 4
+        - name: Notion
+          users: "500.000"
+          percentage: 3.41%
+          id: 5
+        - name: Notebook
+          users: "100.000"
+          percentage: 0.68%
+          id: 6
+        - name: Nimbus
+          users: "50.000"
+          percentage: 0.34%
+          id: 7
+    explanation: We can compute that an estimate market total is equal to almost 14.6 mil users. However, we are not able to find out exactly how these statistics are gathered by the product owners and if they have duplicates or not. In addition, our solution is not meant to replace a note-taking app, it is more of a complementary resource used for obtaining better learning resources, which does not have a concrete market of its own. Also, we have an untapped potential among students, with 17.5 million just in the European Union alone which we could attract, but for which we could not compute a specific part without knowing the percentage of students who use one of the above-presented apps. With these being said, we will continue presenting our estimations.
+    estimation: In the first week of promoting our product, we gained 28 subscribers. If we keep gaining a constant number of subscribers every week, we will eventually have 1500 users in the first year. After growing our userbase, we expect a higher increase in the usage of the product. We aim for an exponential increase in our user gain each year.
+    table2:
+        - year: First year
+          increase: 1.500
+          users: 1.500
+          share: 0.01%
+          id: 1
+        - year: Second year
+          increase: 4.000
+          users: 5.500
+          share: 0.03%
+          id: 2
+        - year: Third year
+          increase: 8.000
+          users: 13.5000
+          share: 0.09%
+          id: 3
+        - year: Fourth year
+          increase: 16.000
+          users: 29.500
+          share: 0.20%
+          id: 4
+        - year: Fifth year
+          increase: 32.000
+          users: 61.500
+          share: 0.41%
+          id: 5
+    note: Although a market share of 0.41% seems like a quite small precentage, taking into consideration that the market is quite large, having 14.6 mil users, with competitors with big ecosystems like Microsoft and Google, this is actually a pretty good result.
+
 
 market_value:
     section: market_value
     title: Market value in the first 5 years
-    desc: Market Value description
+    desc1: "Globally, the Note-Taking Management Software Market was valued at <strong>897.7 Million $</strong> in 2018 and it is projected to reach <strong>1.35 Billion $</strong> untill 2026 with an annual growth of <strong>5.32%</strong>"
+    desc1_href: "https://www.verifiedmarketresearch.com/product/note-making-management-software-market/"
+    desc2: "Our app is targeted to be used in Romania and Europe at first. After that, depending of the increase of users we plan to grow it globally. We estimate our revenue as <strong>4$</strong> per user per month, therefore the income for one month will be <strong>6000$</strong>. Taking that into account and the estimated number of users per year, <strong>1500</strong>, the values for the market value are:"
+
+    table:
+        - year: First year
+          share: 0.01%
+          revenue: 7.200
+          value: 7.200
+          id: 1
+        - year: Second year
+          share: 0.03%
+          revenue: 264.000
+          value: 336.000
+          id: 2
+        - year: Third year
+          share: 0.09%
+          revenue: 648.000
+          value: 984.000
+          id: 3
+        - year: Fourth year
+          share: 0.20%
+          revenue: 1.416.000
+          value: 2.400.000
+          id: 4
+        - year: Fifth year
+          share: 0.41%
+          revenue: 2.952.000
+          value: 5.352.000
+          id: 5 
 
 conclusions:
     section: conclusions
     title: Conclusions
-    desc: Conclusions description
+    desc: In conclusion, the note-taking managment industry is in a continuous growth and more and more people start to use these kind of appications, enjoying their benefits. Taking a look over the analysed facts and the values calculated, we believe that our business is a profitable one and has multiple posibilities of developing.
