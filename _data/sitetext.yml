@@ -118,4 +118,11 @@ timeline:
             - link: m6/potential_market_share.html
             - link: m6/market_value.html
             - link: m6/conclusions.html
+      - title: "M8 - First Sale"
+        desc: "In this milestone, we shared our product publicly and gained feedback.
+         We understood what are the strong and weak points of our app. Also, we found out if there are users who would buy our solution."
+        image: assets/img/m8/pexels-photo.jpg
+        has_more: M8
+        includes: 
+            - link: m8/mvp_feedback.html
     end: "More <br> Coming <br> Soon!"

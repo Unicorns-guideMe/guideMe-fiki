@@ -1,0 +1,20 @@
+feedback:
+  section: feedback
+  title: First Sale
+  subtitle: Feedback from users
+  desc: We shared our solution through social media and direct messages to make it visible to the public.
+   After testing it, some users gave us feedback and told us an opinion about their experience. 
+    Thus, we found out what are the strengths and weaknesses of our solution and what improvements we can make. 
+    Currently, none of the users we spoke to is willing to give money to use our app in its current state. 
+    This drives us to further improve our application for an even more enjoyable user experience.
+  conclusions:
+    This stage of development helped us understand that our application is actually useful for our targeted users and it would be used as a free app for now. 
+    The strong point of the app is the note taking feature with the possibility to add multiple tags and sort the materials by them. 
+    The users find it a better way to organize their resources than the standard bookmarking feature of a browser. 
+    As a future step, a significant improvement for our application would be to create a tutorial to explain the flow of the extension so it is more clear to users.     
+  img_feedback: 
+    - path: assets/img/m8/1.png
+    - path: assets/img/m8/2.png
+    - path: assets/img/m8/3.png
+    - path: assets/img/m8/4.png
+    - path: assets/img/m8/5.png
