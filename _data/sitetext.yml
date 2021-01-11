@@ -118,6 +118,13 @@ timeline:
             - link: m6/potential_market_share.html
             - link: m6/market_value.html
             - link: m6/conclusions.html
+      - title: "M7 - MVP"
+        desc: "We developed the very first version of our product. We kept it simple and included the key functionalities, while taking into consideration the feedback received during the validation process."
+        image: assets/img/timeline/7.jpg
+        has_more: M7
+        includes: 
+            - link: m7/introduction.html
+            - link: m7/content.html
       - title: "M8 - First Sale"
         desc: "In this milestone, we shared our product publicly and gained feedback.
          We understood what are the strong and weak points of our app. Also, we found out if there are users who would buy our solution."
